@@ -11,8 +11,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH = os.path.join(BASE_DIR, "database", "catms.db")
 
 # ---------- EMAIL CONFIG (REMINDER ONLY) ----------
-EMAIL_SENDER = "shubhammhaske6611@gmail.com"      
-EMAIL_PASSWORD = "nkdi xjeq wsaj udth"   
+EMAIL_SENDER = "youremail@gmail.com"      
+EMAIL_PASSWORD = "your_email_password"   
 
 def send_task_reminder_email(to_email, task_title, start_time):
     msg = EmailMessage()
